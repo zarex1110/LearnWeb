@@ -6,8 +6,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST["password"];
 
     // Replace with your database connection logic
-    $db_username = "your_db_username";
-    $db_password = "your_db_password";
+    $db_username = "admin";
+    $db_password = "admin";
 
     if ($username == $db_username && $password == $db_password) {
         $_SESSION["username"] = $username;
